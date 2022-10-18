@@ -1,0 +1,317 @@
+header {
+    padding: 2%;
+    background-color: rgb(222, 176, 247);
+    color: white;
+}
+
+body {
+    background-color: rgb(146, 230, 183);
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 5000px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 400%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 320%;
+    text-align: center;
+
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: white;
+}
+
+nav ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 2%;
+    color: rgb(45, 96, 82);
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    margin: 0;
+    border: 0px;
+}
+
+nav li a {
+    display: flex;
+    white-space: nowrap;
+    color: rgb(166, 210, 251);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(166, 210, 251);
+    color: white;
+}
+
+ul {
+
+    font-family: sans-serif;
+    font-size: large;
+    font-size: 150%;
+    color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.homepicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1024px;
+    min-width: 700px;
+}
+
+.about {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+
+.education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 40px;
+
+}
+.education h3 {
+    margin-right: 0;
+    padding: 5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.education h4 {
+    margin-top: 0;
+    padding: 5%;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.education ul {
+    margin-right: 50px;
+}
+
+.education h4, .education h3, .education ul {
+
+    margin-left: 10%;
+}
+
+.cornell {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    margin-left: 10%;
+}
+
+.nyu {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 15;
+    margin-right: 15%;
+
+}
+
+.nyu ul {
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+.education img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+
+}
+
+.hastings h3 {
+    padding: 2%;
+    text-align: left;
+    margin: 0;
+    padding-top: 4%;
+    padding-bottom: 0;
+    margin-left: 13.5%;
+}
+
+.hastings h4{
+    margin-top: 0;
+    padding-top: 0;
+   text-align: left;
+   margin-left: 15.5%;
+}
+
+.hastings {
+
+    padding-bottom: 2%;
+}
+
+.contact {
+
+    border: none;
+    background-color: rgb(242, 173, 231);
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+}
+
+.gallery {
+
+    background-color: rgb(249, 230, 85);;
+    margin-top: 0;
+    padding: 1px;
+    margin-top: 0;
+}
+
+.gallery h3, .marketing h3, .sounddesign h3, .skillsheading h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2%;
+    font-size: x-large;
+    letter-spacing: 10px;
+}
+
+.gallery > * {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    row-gap: 40px;
+    padding: 2%
+}
+
+.marketing {
+    background-color: rgb(161, 218, 250);
+    padding: 1px;
+    color: white;
+
+}
+
+.marketing h4, .marketing p, .marketing img {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.marketing h2, .gallery h2, .sounddesign h2, .skillsheading h2 {
+    padding: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+
+.sounddesign {
+    background-color: rgb(251, 173, 243);
+
+    padding: 1px;
+    color: white;
+}
+
+.soundboard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+    min-width: 600px;
+    padding: 1%;
+
+}
+
+.skills {
+
+    background-color: rgb(255, 206, 100);
+    padding: 1px;
+    color: white;
+
+}
+
+
+.skillslist {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10%;
+
+}
+.skillslist > * {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+
+
+}
+
+.skillslist h4 {
+    margin-left: 40px;
+
+}
+
+.comm {
+    flex-grow: 4;
+    margin-left: 10%;
+}
+
+.skillss {
+    text-align: center;
+    font-size: 300%;
+}
+
+
+cite {
+    color: white;
+    margin-left: 30%;
+}
+
+cite a {
+
+    color: white;
+}
